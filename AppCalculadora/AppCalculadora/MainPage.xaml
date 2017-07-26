@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppCalculadora"
+             x:Class="AppCalculadora.MainPage">
+
+    <StackLayout>
+        <Label Text="CALCULADORA" 
+               HorizontalOptions="Center" />
+        <Label Text="Valor Total R$" />
+        <Entry x:Name="txtValorTotal" Text="" Keyboard="Numeric" />
+        <Label Text="Nº das Parcelas" />
+        <Entry x:Name="txtNumeroParcelas" Text="" Keyboard="Numeric" />
+        <Label Text="Desconto ou Acrescimo" />
+        <Entry x:Name="txtDesconto" Text="Desconto / Acrescimo" Keyboard="Text" />
+        <Label Text="%" />
+        <Entry x:Name="txtPorcentagem" Text="" Keyboard="Numeric" />
+        <Button Text="CALCULAR" Clicked="btnCalcular" />
+        <Label Text="Valor à Pagar" />
+        <Entry x:Name="txtValorPagar" Text="" Keyboard="Numeric" />
+        <Label Text="Valor das Parcelas" />
+        <Entry x:Name="txtValorParcelas" Text="" Keyboard="Numeric" />
+    </StackLayout>
+
+</ContentPage>
